@@ -21,15 +21,13 @@ img {
 
 #logo {
     position: absolute;
-    top: 25rem;
-    left: 0%;
+    top: 2rem;
+    left: -3%;
     width: 100%;
     height: 100%;
     display: flex;
-    float: left;
     justify-content: center;
     align-items: center;
     z-index: 3;
-    margin-top: -25rem;
 }
 
