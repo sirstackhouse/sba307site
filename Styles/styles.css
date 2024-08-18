@@ -3,8 +3,14 @@
   font-weight: bold;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 body {
-  overflow: hidden;
+  overflow: overlay;
+  background: transparent;
 }
 
 img {
@@ -14,15 +20,16 @@ img {
 }
 
 #logo {
-    position: relative;
-    top: 30rem;
-    left: 0;
+    position: absolute;
+    top: 25rem;
+    left: 0%;
     width: 100%;
     height: 100%;
     display: flex;
+    float: left;
     justify-content: center;
     align-items: center;
     z-index: 3;
-    margin-top: -15rem;
+    margin-top: -25rem;
 }
 
