@@ -10,12 +10,22 @@
 
 body {
   overflow: overlay;
-  background: transparent;
+  /* background: transparent; */
   overflow-x: hidden;
+  animation: fadeIn ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   border-style: none;
+} */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 30%);
 }
 
 img {
@@ -71,3 +81,13 @@ form {
   width: 100%;
 }
 
+/* Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
