@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica;
+  font-family: 'Jost';
   /* font-weight: bold; */
 }
 
@@ -41,7 +41,7 @@ img {
 #cta {
   padding-top: 10%;
   padding-bottom: 13%;
-  width: 75%;
+  width: 100%;
   /* text-align: center; */
 
   /* width:; */
@@ -49,9 +49,17 @@ img {
 
 form {
   width: 75%;
-  padding-left: 25%;
-  /* text-align: center; */
-  /* justify-content: center; */
+  padding-left: 37.5%;
+  padding-top: 2%;
+  padding-right: 12.5%;
+  padding-bottom: 0;
+  margin-bottom: -2%;
+}
+
+/* Classes */
+
+.mb-3 {
+  padding-top: 2%;
 }
 
 #exampleCheck1 {
