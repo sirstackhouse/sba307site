@@ -1,3 +1,4 @@
+/* Elements */
 * {
   font-family: 'Jost';
   /* font-weight: bold; */
@@ -9,23 +10,10 @@
 }
 
 body {
-  overflow: overlay;
-  /* background: transparent; */
   overflow-x: hidden;
   animation: fadeIn ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
-
-/* .navbar-toggler {
-  border-style: none;
-} */
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 30%);
 }
 
 img {
@@ -34,17 +22,33 @@ img {
   object-fit: cover;
 }
 
+form {
+  width: 75%;
+  padding-left: 37.5%;
+  padding-right: 12.5%;
+  padding-bottom: 0;
+  margin-bottom: -2%;
+}
+
+/* Classes */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 30%);
+}
+
+/* ID's */
+
 #logo {
   position: fixed;
   top: 15rem;
   left: -3%;
   width: 100%;
-  /* min-height: 1vh; */
   max-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: -5rem; */
   z-index: 3;
 }
 
@@ -52,24 +56,6 @@ img {
   padding-top: 10%;
   padding-bottom: 13%;
   width: 100%;
-  /* text-align: center; */
-
-  /* width:; */
-}
-
-form {
-  width: 75%;
-  padding-left: 37.5%;
-  padding-top: 2%;
-  padding-right: 12.5%;
-  padding-bottom: 0;
-  margin-bottom: -2%;
-}
-
-/* Classes */
-
-.mb-3 {
-  padding-top: 2%;
 }
 
 #exampleCheck1 {
